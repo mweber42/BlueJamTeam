@@ -1,0 +1,34 @@
+{
+    // Required
+    "manifest_version": 2,
+    "name": "Blue",
+    "description": "Blue, pour vous servir",
+    "version": "0.10",
+    "browser_action": {
+      "default_popup": "popup.html",
+        "default_icon": {
+          "16": "icon/icon16.png",
+          "24": "icon/icon24.png",
+          "32": "icon/icon32.png"
+        },
+        "default_title": "Google Mail"
+      },
+      "commands": {
+        "_execute_browser_action": {
+          "suggested_key": {
+            "default": "Ctrl+Shift+F",
+            "mac": "MacCtrl+Shift+F"
+          }
+        }
+      },
+      "background": {
+        "scripts": ["background.js"],
+        "peristent": false      
+      },
+      "permissions": ["webNavigation"],
+      "icons": {
+        "16": "icon/icon16.png",
+        "24": "icon/icon24.png",
+        "32": "icon/icon32.png"
+      }
+}
