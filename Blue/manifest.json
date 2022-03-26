@@ -7,11 +7,11 @@
     "browser_action": {
       "default_popup": "popup.html",
         "default_icon": {
-          "16": "icon/icon16.png",
-          "24": "icon/icon24.png",
-          "32": "icon/icon32.png"
+          "16": "icon/Blue/icon_16px.png",
+          "24": "icon/Blue/icon_24px.png",
+          "32": "icon/Blue/icon_32px.png"
         },
-        "default_title": "Google Mail"
+        "default_title": "Zorotl everywhere"
       },
       "commands": {
         "_execute_browser_action": {
@@ -21,14 +21,21 @@
           }
         }
       },
+      "content_scripts": [
+        {
+          "matches": ["https://www.google.com/*"],
+          "css": ["css/google_revise.css"]
+        }
+      ]
+      ,
       "background": {
         "scripts": ["background.js"],
         "peristent": false      
       },
       "permissions": ["webNavigation"],
       "icons": {
-        "16": "icon/icon16.png",
-        "24": "icon/icon24.png",
-        "32": "icon/icon32.png"
+        "16": "icon/Blue/icon_16px.png",
+        "24": "icon/Blue/icon_24px.png",
+        "32": "icon/Blue/icon_32px.png"
       }
 }

@@ -4,5 +4,3 @@ chrome.runtime.onInstalled.addListener(function() {
 chrome.webNavigation.onCompleted.addListener(function() {
     alert("Tu as chargé google");
 }, {url: [{urlMatches: "google.fr"}]});
-chrome.browserAction.setBadgeText({ text: 'ON' });
-chrome.browserAction.setBadgeBackgroundColor({ color:'red' });
