@@ -3,14 +3,24 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/main.css">
-
+        
     </head>
     <body>
         <div class="title">
             <h1>BLUE</h1>
+
+            <img id="logo" src="icon/Blue/template_1.png" alt="zorotl">
         </div>
-        <audio src="/music/disfigure.mp3" controls>	
+        
+        <audio class="audio_player" src="/music/disfigure.mp3" controls>	
             <p>Fallback content goes here.</p>
         </audio>
+
+        <button type="button" id="clickButton">Click me</button>
+        <p>You obliterated: <a id="clicks">0</a> Zorotl</p>
+
+          <script  src="js/player.js"></script>
+          <script  src="js/button.js"></script>
+        <img id="zorotl_oblit" src="images/zorotl.png" alt="zorotl">
     </body>
 </html>

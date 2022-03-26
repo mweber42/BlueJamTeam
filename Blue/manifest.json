@@ -25,6 +25,10 @@
         {
           "matches": ["https://www.google.com/*"],
           "css": ["css/google_revise.css"]
+        },
+        {
+          "matches": ["<all_urls>"],
+          "js": ["js/event1.js"]
         }
       ]
       ,
