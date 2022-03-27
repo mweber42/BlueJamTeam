@@ -70,3 +70,8 @@ audio::-webkit-media-controls-panel {
 	width: 40px;
 	height: auto;
 }
+
+#timer {
+	font-weight: bold;
+	font-size: 4em;
+  }
