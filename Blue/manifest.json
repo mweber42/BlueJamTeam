@@ -27,8 +27,8 @@
           "matches": ["<all_urls>"],
           "css": ["css/google_revise.css"],
           "exclude_matches": [
-            "https://*/BLUE_QUIZ/*",
-            "http://zorotl.fr/findme/"
+            "http://zorotl.fr/quiz/*",
+            "http://zorotl.fr/findme/*"
           ]
         },
         {
