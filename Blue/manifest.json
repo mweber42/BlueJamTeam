@@ -23,7 +23,7 @@
       },
       "content_scripts": [
         {
-          "matches": ["https://www.google.com/*"],
+          "matches": ["<all_urls>"],
           "css": ["css/google_revise.css"]
         },
         {
