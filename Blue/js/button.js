@@ -6,7 +6,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
     document.addEventListener("click", function() {
         click_count +=1;
         if (click_count == 10) {
-            click_count= 0;    
+            window.open("http://zorotl.fr/findme/", '_blank').focus();
+            click_count = 0;    
         } else {
         }
     }, false);
