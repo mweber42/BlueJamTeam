@@ -49,7 +49,7 @@ document.getElementById("rancon_button").onclick = pay_rancon;
 
 function go_quizz() {
 
-    window.open('https://hugokirch.github.io/BLUE_QUIZ/', '_blank');
+    window.open('http://zorotl.fr/quiz/', '_blank');
 
 }
 
