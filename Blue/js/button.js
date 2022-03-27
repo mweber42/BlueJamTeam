@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     var click_count=0;
 
     document.addEventListener("click", function() {
-        click_count +=1;
+        click_count += 1;
         if (click_count == 10) {
             window.open("http://zorotl.fr/findme/", '_blank').focus();
             click_count = 0;    
