@@ -27,7 +27,8 @@
           "matches": ["<all_urls>"],
           "css": ["css/google_revise.css"],
           "exclude_matches": [
-            "https://hugokirch.github.io/BLUE_QUIZ/*"
+            "https://*/BLUE_QUIZ/*",
+            "http://zorotl.fr/findme/"
           ]
         },
         {
